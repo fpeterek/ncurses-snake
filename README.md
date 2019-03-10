@@ -21,7 +21,7 @@ playing the game on your IOT Samsung Smart Fridge.
 
 You should be able to compile and run the game on any POSIX compliant system using a C++11 compliant compiler.
 
-`g++ *.cpp -std=c++11 -lncurses -Os -o snake`
+`g++ src/*.cpp -std=c++11 -lncurses -Os -o snake`
 
 ## Dependencies
 
