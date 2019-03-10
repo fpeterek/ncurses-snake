@@ -2,7 +2,7 @@
 // Created by Filip Peterek on 2019-03-09.
 //
 
-#include "food.hpp"
+#include "../include/food.hpp"
 
 #include <cstdlib>
 

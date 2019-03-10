@@ -2,7 +2,7 @@
 // Created by Filip Peterek on 2019-03-09.
 //
 
-#include "player.hpp"
+#include "../include/player.hpp"
 
 Player::Player() {
     snake.emplace_back();

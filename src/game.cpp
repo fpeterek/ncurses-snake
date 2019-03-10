@@ -2,7 +2,7 @@
 // Created by Filip Peterek on 2019-03-09.
 //
 
-#include "game.hpp"
+#include "../include/game.hpp"
 
 const std::unordered_map<int, direction> Game::keyDirMap = {
         { KEY_LEFT,  direction::left  },

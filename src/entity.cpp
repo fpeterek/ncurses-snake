@@ -2,7 +2,7 @@
 // Created by Filip Peterek on 2019-03-09.
 //
 
-#include "entity.hpp"
+#include "../include/entity.hpp"
 
 chtype Entity::getChar() const {
     return L'-';

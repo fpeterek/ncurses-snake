@@ -2,7 +2,7 @@
 // Created by Filip Peterek on 2019-03-09.
 //
 
-#include "player_body.hpp"
+#include "../include/player_body.hpp"
 
 chtype PlayerBody::getChar() const {
     return L'O';

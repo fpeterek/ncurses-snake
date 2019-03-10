@@ -9,7 +9,7 @@
 
 #include <ncurses.h>
 
-#include "game.hpp"
+#include "../include/game.hpp"
 
 constexpr bool enable_half_delay = true;
 
