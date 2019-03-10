@@ -105,14 +105,16 @@ void destroy_win(WINDOW * local_win) {
 
 void Game::gameOver() {
 
-    const int height = 11;
-    const int width = 35;
-    const int startY = LINES / 2 - 5;
-    const int startX = COLS / 2 - 17;
+    const int height = std::max(LINES / 3, 3);
+    const int width = std::max(COLS / 3, 11);
+    const int startY = std::max(LINES / 2 - height / 2, 1);
+    const int startX = std::max(COLS / 2 - width / 2, 1);
+    const int textY = std::max(height / 2 - 1, 1);
+    const int textX = std::max(width / 2 - 4, 1);
 
     WINDOW * win = create_newwin(height, width, startY, startX);
 
-    mvwaddstr(win, 5, 13, "Game Over");
+    mvwaddstr(win, textY, textX, "Game Over");
     wrefresh(win);
     refresh();
 
@@ -135,7 +137,7 @@ void Game::gameOver() {
 }
 
 void Game::reset() {
-    player = Player(10, 10);
+    player = Player((uint16_t)(COLS / 4), (uint16_t)(LINES / 4));
     generateFood();
 }
 
