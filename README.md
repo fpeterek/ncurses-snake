@@ -25,5 +25,5 @@ You should be able to compile and run the game on any POSIX compliant system usi
 
 ## Dependencies
 
-This game has no dependencies and only uses some parts of the C++ standard library and ncurses, library, which should 
-be present on all POSIX compliant systems.
+This game only has one dependency, ncurses, which should be available on all POSIX compliant systems. If you're using Windows,
+try to install something useful on your PC, like [Hannah Montana Linux](http://hannahmontana.sourceforge.net/).
