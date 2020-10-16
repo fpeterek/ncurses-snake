@@ -8,6 +8,8 @@
 
 
 #include <ncurses.h>
+#include <stdlib.h>
+#include <time.h>
 
 #include "../include/game.hpp"
 
